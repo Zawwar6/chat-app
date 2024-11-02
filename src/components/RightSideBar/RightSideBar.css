@@ -1,0 +1,104 @@
+/* Main container for profile section */
+.rs {
+    width: 100%;
+    max-width: 320px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    overflow:hidden ;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Profile section at the top */
+  .rs-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .rs-profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #0078ff;
+    box-shadow: 0px 4px 10px rgba(0, 120, 255, 0.2);
+  }
+  
+  .rs-profile h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .rs-profile p {
+    font-size: 15px;
+    color: #555555;
+    margin-top: 6px;
+  }
+  
+  /* Horizontal line styling */
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #e6e6e6;
+  }
+  
+  /* Media section styling */
+  .rs-media p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #0078ff;
+    margin-bottom: 3px;
+  }
+  
+  .rs-media div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .rs-media img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .rs-media img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Logout button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #0078ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0078ff;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
